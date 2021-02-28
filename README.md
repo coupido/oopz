@@ -2,7 +2,7 @@
 Object oriented programming based on Pygame Zero and Mu. 
 
 ## Idea
-Students know Scratch and have to learn OOP. This module makes Pygame Zero act more like [Scratch](https://scratch.mit.edu/) and OOP.
+Students know [Scratch](https://scratch.mit.edu/) and have to learn OOP. This module makes Pygame Zero act more like [Scratch](https://scratch.mit.edu/) and OOP.
 
 The idea comes from
 https://www.aposteriori.com.sg/pygame-zero-helper/
