@@ -8,7 +8,7 @@ The idea comes from
 https://www.aposteriori.com.sg/pygame-zero-helper/
 
 ## Example
-You can find a list of all methods in the [OOPZ Cheat Sheet](OOPZ%20Cheat%20Sheet_en.docx)
+You can find a list of all methods in the [OOPZ Cheat Sheet](OOPZ%20Cheat%20Sheet.pdf)
 ```
 from oopz import *
 
