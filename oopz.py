@@ -11,7 +11,7 @@ stage, mouse and key
 TODO: class for mouse
 """
 
-__version__ = "0.1"
+__version__ = "0.2"
 
 import math
 import pygame
@@ -584,16 +584,24 @@ class Stage:
     def write_text(self, text, pos, **kwargs):
         PGZA.screen.draw.text(text, pos, **kwargs)
 
-    def get_size(self):
+    def timer(self):
+        return round(time.time() - self.start_time,1)
+
+    def reset_timer(self):
+        self.start_time = time.time()
+
+    def _size(self):
         return pygame.display.get_surface().get_size()
 
-    def height(self):
-        return PGZA.HEIGHT
+    def _height(self):
+        _, y = self._size()
+        return y
 
-    def width(self):
-        return PGZA.WIDTH
+    def _width(self):
+        x, _ = self._size()
+        return x
 
-    def title(self):
+    def _title(self):
         return PGZA.TITLE
 
 
