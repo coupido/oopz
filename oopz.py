@@ -11,7 +11,7 @@ stage, mouse and key
 TODO: class for mouse
 """
 
-__version__ = "0.2"
+__version__ = "0.2.1"
 
 import math
 import pygame
@@ -99,8 +99,14 @@ class Actor(Actor):
     def x_position(self):
         return self.x
 
+    def set_x_to(self, x):
+        self.x = x
+
     def y_position(self):
         return self.y
+
+    def set_y_to(self, y):
+        self.y = y
 
     def set_anchor(self, x, y):
         self.anchor = (x, y)
