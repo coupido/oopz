@@ -48,7 +48,7 @@ def mouse_x():
     return x
 
 
-mouse.y_position = mouse_x
+mouse.x_position = mouse_x
 
 
 def mouse_y():
